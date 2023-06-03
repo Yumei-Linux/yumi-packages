@@ -1,5 +1,9 @@
 TEMP=$(mktemp -p)
 
+mv -v ${@}.tar* $TEMP
+
+cd $TEMP
+
 into_tar_source () {
     tar -xvf ${@}.tar*
     cd $@
