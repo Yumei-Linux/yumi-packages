@@ -25,6 +25,7 @@ fi
 if [ -f /etc/yumi/make_opts ]; then
     export MAKEOPTS=$(cat /etc/yumi/make_opts)
     alias make="make ${MAKEOPTS}"
+    echo " ** CONFIGURING MAKE WITH MAKE_OPTS=${MAKE_OPTS}"
 fi
 
 # load the builder
