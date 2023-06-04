@@ -13,6 +13,8 @@ load () {
 
 packages=(
     man-pages.sh
+    iana-etc.sh
+    glib.sh
 )
 
 for pkg in ${packages[@]}; do
