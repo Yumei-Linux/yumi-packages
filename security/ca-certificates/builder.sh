@@ -10,7 +10,7 @@ if [ ! -f "$CERTDATA" ]; then
     whydidyouremovesources
 fi
 
-if [ -f "$MAKECA" ]; then
+if [ ! -f "$MAKECA" ]; then
     whydidyouremovesources
 fi
 
