@@ -6,6 +6,4 @@ provides = ["/usr/sbin/make-ca.sh"]
 deps = []
 
 [downloads]
-"make-ca.sh-20170514" = "http://anduin.linuxfromscratch.org/BLFS/other/make-ca.sh-20170514"
-"certdata.txt" = "http://anduin.linuxfromscratch.org/BLFS/other/certdata.txt"
 "root.crt" = "http://www.cacert.org/certs/root.crt"
