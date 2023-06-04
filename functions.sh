@@ -1,6 +1,7 @@
 TEMP=$(mktemp -p)
 
-mv -v ${@}.tar* $TEMP
+mv -v ./.yumi-downloads/* $TEMP
+rmdir ./.yumi-downloads/
 
 cd $TEMP
 
@@ -11,7 +12,7 @@ into_tar_source () {
 
 cleanup () {
     cd /
-    rm -rvf /tmp/$TEMP
+    rm -rvf $TEMP
 }
 
 # load the builder
