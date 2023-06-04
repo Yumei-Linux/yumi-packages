@@ -29,7 +29,7 @@ if [ -f /etc/yumi/make_opts ]; then
 fi
 
 if [ -f /etc/yumi/ninja_jobs ]; then
-    export NINJAJOBS=$(cat /etc/yumi/ninjajobs | xargs)
+    export NINJAJOBS=$(cat /etc/yumi/ninja_jobs | xargs)
     echo "** CONFIGURING NINJA WITH NINJAJOBS=${NINJAJOBS}"
 fi
 
