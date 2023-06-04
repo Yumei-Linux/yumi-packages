@@ -12,6 +12,11 @@ load () {
 
 packages=(
     gettext.sh
+    bison.sh
+    perl.sh
+    python.sh
+    texinfo.sh
+    util-linux.sh
 )
 
 for pkg in ${packages[@]}; do
