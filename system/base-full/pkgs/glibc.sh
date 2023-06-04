@@ -61,10 +61,8 @@ cp -v zone.tab zone1970.tab iso3166.tab $ZONEINFO
 zic -d $ZONEINFO -p America/New_York
 unset ZONEINFO
 
-echo "Determine your timezone id!"
+echo "Determine your timezone id! (then you have to write the timezone displayed at screen and press enter (rewrite it!))"
 tzselect
-
-printf "Please give me the id of your desired timezone: "
 read timezone
 
 ln -svf /usr/share/zoneinfo/$timezone /etc/localtime
@@ -79,4 +77,5 @@ cat >> /etc/ld.so.conf << "EOF"
 # Add an include directory
 include /etc/ld.so.conf.d/*.conf
 EOF
+
 mkdir -pv /etc/ld.so.conf.d
