@@ -1,4 +1,4 @@
-source tcl-8.6.13
+source tcl8.6.13-src
 
 SRCDIR=$(pwd)
 
