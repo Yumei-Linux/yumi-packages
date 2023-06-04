@@ -17,6 +17,13 @@ fi
 cp -rvf "$CERTDATA" "$PWD"
 cp -rvf "$MAKECA" "$PWD"
 
-pwd ; ls
+install -vdm755 /etc/ssl/local
+openssl x509 -in root.crt -text -fingerprint -setalias "CAcert Class 1 root" \
+    -addtrust serverAuth -addtrust emailProtection -addtrust codeSigning \
+    > /etc/ssl/local/CAcert_Class_1_root.pem
+
+install -vm755 make-ca.sh-20170514 /usr/sbin/make-ca.sh
+
+/usr/sbin/make-ca.sh
 
 cleanup
