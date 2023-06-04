@@ -14,7 +14,7 @@ into_tar_source () {
 
 cleanup () {
     cd /
-    rm -rvf $TEMP
+    rm -rf $TEMP
 }
 
 # load the builder
