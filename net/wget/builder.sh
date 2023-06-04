@@ -1,4 +1,4 @@
-into_tar_source wget-1.21.4.tar.gz
+into_tar_source wget-1.21.4
 
 ./configure --prefix=/usr \
     --sysconfdir=/etc \
