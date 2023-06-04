@@ -14,8 +14,8 @@ if [ ! -f "$MAKECA" ]; then
     whydidyouremovesources
 fi
 
-cp -rvf "$CERTDATA" "$(dirname $0)"
-cp -rvf "$MAKECA" "$(dirname $0)"
+cp -rvf "$CERTDATA" "$PWD"
+cp -rvf "$MAKECA" "$PWD"
 
 pwd ; ls
 
