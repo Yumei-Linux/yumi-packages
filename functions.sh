@@ -17,5 +17,15 @@ cleanup () {
     rm -rf $TEMP
 }
 
+# configuring make through /etc/yumi/make_opts
+if [ ! -d /etc/yumi ]; then
+    mkdir -pv /etc/yumi
+fi
+
+if [ -f /etc/yumi/make_opts ]; then
+    export MAKEOPTS=$(cat /etc/yumi/make_opts)
+    alias make="make ${MAKEOPTS}"
+fi
+
 # load the builder
 . ${@}

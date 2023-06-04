@@ -5,8 +5,10 @@ into_tar_source dash-0.5.12
 
 make && make install
 
-cat >> /etc/shells << EOF
+if [[ "$(cat /etc/shells | find '/bin/dash' | wc -l)" == 0 ]]; then
+cat >> /etc/shells << "EOF"
 /bin/dash
 EOF
+fi
 
 cleanup dash-0.5.12
