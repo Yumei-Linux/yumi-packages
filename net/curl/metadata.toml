@@ -3,7 +3,7 @@ name = "cURL"
 description = "The cURL package has the ability to both download and upload files can be incorporated into other programs to support functions like streaming media."
 version = "8.1.1"
 deps = ["security/ca-certificates"]
-provides = "/usr/bin/curl"
+provides = ["/usr/bin/curl"]
 
 [downloads]
 "curl-8.1.1.tar.xz" = "https://curl.se/download/curl-8.1.1.tar.xz"
