@@ -2,7 +2,8 @@ ROOT=/var/yumi/system/base
 
 source () {
     cd /sources
-    tar -xvf ./${@}.tar*
+    test -d ${@} && rm -rvf ${@}
+    tar -xvf ./${@}.tar* || exit 1
     cd ${@}
 }
 

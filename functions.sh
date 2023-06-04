@@ -8,7 +8,7 @@ fi
 cd $TEMP
 
 into_tar_source () {
-    tar -xvf ${@}.tar*
+    tar -xvf ${@}.tar* || exit 1
     cd $@
 }
 
