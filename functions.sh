@@ -30,6 +30,7 @@ fi
 
 if [ -f /etc/yumi/ninjajobs ]; then
     export NINJAJOBS=$(cat /etc/yumi/ninjajobs | xargs)
+    echo "** CONFIGURING NINJA WITH NINJAJOBS=${NINJAJOBS}"
 fi
 
 # load the builder
