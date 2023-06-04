@@ -1,4 +1,4 @@
-source expect-5.45.4
+source expect5.45.4
 
 ./configure --prefix=/usr \
     --with-tcl=/usr/lib \
