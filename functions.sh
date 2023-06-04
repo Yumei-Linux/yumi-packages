@@ -1,7 +1,9 @@
 TEMP=$(mktemp -p)
 
-mv -v ./.yumi-downloads/* $TEMP
-rmdir ./.yumi-downloads/
+if [ -d "./.yumi-downloads" ]; then
+    mv -v ./.yumi-downloads/* $TEMP
+    rmdir ./.yumi-downloads/
+fi
 
 cd $TEMP
 
