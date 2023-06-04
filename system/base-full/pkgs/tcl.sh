@@ -1,4 +1,5 @@
-source tcl8.6.13-src
+mv /sources/tcl8.6.13-src.tar.gz /sources/tcl8.6.13.tar.gz
+source tcl8.6.13
 
 SRCDIR=$(pwd)
 
