@@ -1,6 +1,6 @@
 source gdbm-1.23
 
-./configure --prefix \
+./configure --prefix=/usr \
     --disable-static \
     --enable-libgdbm-compat
 
