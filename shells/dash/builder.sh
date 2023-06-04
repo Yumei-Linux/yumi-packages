@@ -11,4 +11,4 @@ cat >> /etc/shells << "EOF"
 EOF
 fi
 
-cleanup dash-0.5.12
+cleanup

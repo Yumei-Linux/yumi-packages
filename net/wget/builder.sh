@@ -5,3 +5,5 @@ into_tar_source wget-1.21.4.tar.gz
     --with-ssl=openssl
 
 make && make install
+
+cleanup
