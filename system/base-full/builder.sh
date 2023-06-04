@@ -28,6 +28,14 @@ packages=(
     expect.sh
     dejagnu.sh
     binutils.sh
+    gmp.sh
+    mpfr.sh
+    mpc.sh
+    attr.sh
+    acl.sh
+    libcap.sh
+    shadow.sh
+    gcc.sh
 )
 
 for pkg in ${packages[@]}; do
