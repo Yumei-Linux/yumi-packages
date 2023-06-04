@@ -1,0 +1,9 @@
+[metadata]
+name = "wget"
+description = "The Wget package contains a utility useful for non-interactive downloading of files from the Web."
+version = "1.21.4"
+provides = "/usr/bin/wget"
+deps = ["security/ca-certificates"]
+
+[downloads]
+"wget-1.21.4.tar.gz" = "https://ftp.gnu.org/gnu/wget/wget-1.21.4.tar.gz"
