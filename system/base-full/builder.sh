@@ -14,7 +14,7 @@ load () {
 packages=(
     man-pages.sh
     iana-etc.sh
-    glib.sh
+    glibc.sh
 )
 
 for pkg in ${packages[@]}; do
