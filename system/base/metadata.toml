@@ -1,0 +1,6 @@
+[metadata]
+name = "base"
+description = "This package is a collection of packages that was cloned when executing akari, please be sure to have the /sources directory still present"
+version = "1.0.0"
+provides = [] # it actually provides a LOT of things... the user won't be able to remove this so empty provides
+deps = [] # actually these packages are the dependencies of themselves, so, we won't let yumi know the deps of this one.
