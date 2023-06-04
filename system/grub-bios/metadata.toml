@@ -1,6 +1,7 @@
 [metadata]
 name = "grub-bios"
 description = "This package builds the gnu grub program but targeting bios machines"
+version = "2.06-bios"
 provides = [
     "/usr/bin/grub-bios-setup",
     "/usr/bin/grub-editenv",
