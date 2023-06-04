@@ -1,0 +1,8 @@
+[metadata]
+name = "base-full"
+description = "This is a collection of packages usually stored at /sources by the akari tool, this package aims to build almost the whole system base utilities in their full versions"
+version = "1.0.0"
+provides = [] # see /system/base @metadata.provides
+deps = [] # see /system/base @metadata.deps
+
+[downloads]
