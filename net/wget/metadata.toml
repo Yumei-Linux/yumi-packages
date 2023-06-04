@@ -2,7 +2,7 @@
 name = "wget"
 description = "The Wget package contains a utility useful for non-interactive downloading of files from the Web."
 version = "1.21.4"
-provides = "/usr/bin/wget"
+provides = ["/usr/bin/wget"]
 deps = ["security/ca-certificates"]
 
 [downloads]
