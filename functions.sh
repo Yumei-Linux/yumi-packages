@@ -28,7 +28,7 @@ if [ -f /etc/yumi/make_opts ]; then
     echo "** CONFIGURING MAKE WITH MAKE_OPTS=${MAKEOPTS}"
 fi
 
-if [ -f /etc/yumi/ninjajobs ]; then
+if [ -f /etc/yumi/ninja_jobs ]; then
     export NINJAJOBS=$(cat /etc/yumi/ninjajobs | xargs)
     echo "** CONFIGURING NINJA WITH NINJAJOBS=${NINJAJOBS}"
 fi
