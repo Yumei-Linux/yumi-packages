@@ -1,4 +1,4 @@
-TEMP=$(mktemp -p)
+TEMP=$(mktemp -d)
 
 if [ -d "./.yumi-downloads" ]; then
     mv -v ./.yumi-downloads/* $TEMP
