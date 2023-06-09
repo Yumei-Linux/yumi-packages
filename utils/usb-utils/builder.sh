@@ -2,7 +2,7 @@ into_tar_source usbutils-015
 
 autoreconf -fiv
 
-./configure --prefix \
+./configure --prefix=/usr \
     --datadir=/usr/share/hwdata
 
 _make && _make install
