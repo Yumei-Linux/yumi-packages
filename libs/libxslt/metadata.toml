@@ -2,7 +2,7 @@
 name = "libxslt"
 description = "The libxslt package contains XSLT libraries used for extending libxml2 libraries to support XSLT files."
 version = "1.1.38"
-deps = ["docs/libxml2"]
+deps = ["libs/libxml2"]
 provides = [
   "/usr/bin/xslt-config",
   "/usr/bin/xsltproc",
