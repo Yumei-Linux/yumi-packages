@@ -1,0 +1,24 @@
+[metadata]
+name = "sudo"
+version = "1.9.13p3"
+description = "The Sudo package allows a system administrator to give certain users (or groups of users) the ability to run some (or all) commands as root or another user while logging the commands and arguments."
+deps = ["security/pam"]
+provides = [
+  "/usr/bin/cvtsudoers",
+  "/usr/bin/sudo",
+  "/usr/bin/sudo_logsrvd",
+  "/usr/bin/sudo_sendlog",
+  "/usr/bin/sudoedit",
+  "/usr/bin/sudoreplay",
+  "/usr/bin/visudo",
+  "/usr/lib/audit_json.so",
+  "/usr/lib/group_file.so",
+  "/usr/lib/libsudo_util.so",
+  "/usr/lib/sample_approval.so",
+  "/usr/lib/sudoers.so",
+  "/usr/lib/sudo_noexec.so",
+  "/usr/lib/system_group.so"
+]
+
+[downloads]
+"sudo-1.9.13p3.tar.gz" = "https://www.sudo.ws/dist/sudo-1.9.13p3.tar.gz"
