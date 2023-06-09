@@ -15,7 +15,7 @@ into_tar_source () {
 into_zip_source () {
     mkdir -pv ${@}.extracted
     cd ${@}.extracted
-    unzip ${@}.zip* || exit 1
+    unzip ${@}.zip || exit 1
 }
 
 cleanup () {
