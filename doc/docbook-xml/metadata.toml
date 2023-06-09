@@ -1,0 +1,9 @@
+[metadata]
+name = "docbook-xml"
+description = "The DocBook-4.5 XML DTD-4.5 package contains document type definitions for verification of XML data files against the DocBook rule set."
+version = "4.5"
+deps = ["utils/unzip", "libs/libxml2", "utils/sgml-common"]
+provides = []
+
+[downloads]
+"docbook-xml-4.5.zip" = "https://www.docbook.org/xml/4.5/docbook-xml-4.5.zip"

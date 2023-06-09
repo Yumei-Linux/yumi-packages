@@ -1,0 +1,16 @@
+[metadata]
+name = "libevent"
+description = "libevent is an asynchronous event notification software library."
+version = "2.1.12"
+deps = []
+provides = [
+  "/usr/bin/event_rpcgen.py",
+  "/usr/lib/libevent_core.so",
+  "/usr/lib/libevent_extra.so",
+  "/usr/lib/libevent_openssl.so",
+  "/usr/lib/libevent_pthreads.so",
+  "/usr/lib/libevent.so"
+]
+
+[downloads]
+"libevent-2.1.12-stable.tar.gz" = "https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz"

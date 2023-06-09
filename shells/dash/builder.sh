@@ -11,4 +11,3 @@ cat >> /etc/shells << "EOF"
 EOF
 fi
 
-cleanup

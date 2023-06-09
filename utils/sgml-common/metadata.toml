@@ -1,0 +1,13 @@
+[metadata]
+name = "sgml-common"
+description = "The SGML Common package contains install-catalog."
+version = "0.6.3"
+deps = []
+provides = [
+  "/usr/bin/install-catalog",
+  "/usr/bin/sgmlwhich"
+]
+
+[downloads]
+"sgml-common-0.6.3.tgz" = "https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz"
+"sgml-common-0.6.3-manpage-1.patch" = "https://www.linuxfromscratch.org/patches/blfs/svn/sgml-common-0.6.3-manpage-1.patch"

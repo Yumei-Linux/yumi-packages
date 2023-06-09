@@ -1,0 +1,9 @@
+[metadata]
+name = "xmlto"
+description = "The xmlto package is a front-end to a XSL toolchain."
+version = "0.0.28"
+deps = ["libs/libxslt", "doc/docbook-xml", "doc/docbook-xsl-nons"]
+provides = ["/usr/bin/xmlif", "/usr/bin/xmlto", "web/links"]
+
+[downloads]
+"xmlto-0.0.28.tar.bz2" = "https://releases.pagure.org/xmlto/xmlto-0.0.28.tar.bz2"

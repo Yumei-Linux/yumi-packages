@@ -12,6 +12,12 @@ into_tar_source () {
     cd $@
 }
 
+into_zip_source () {
+    mkdir -pv ${@}.extracted
+    cd ${@}.extracted
+    unzip ${@}.zip* || exit 1
+}
+
 cleanup () {
     cd /
     rm -rf $TEMP
@@ -36,3 +42,6 @@ fi
 
 # load the builder
 . ${@}
+
+# cleanning up
+cleanup

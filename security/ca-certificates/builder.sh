@@ -26,4 +26,3 @@ install -vm755 make-ca.sh-20170514 /usr/sbin/make-ca.sh
 
 /usr/sbin/make-ca.sh
 
-cleanup

@@ -1,0 +1,9 @@
+[metadata]
+name = "links"
+description = "Links is a text and graphics mode WWW browser."
+version = "2.29"
+deps = ["libs/libevent"]
+provides = ["/usr/bin/links"]
+
+[downloads]
+"links-2.29.tar.bz2" = "http://links.twibright.com/download/links-2.29.tar.bz2"

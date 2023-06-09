@@ -1,0 +1,9 @@
+[metadata]
+name = "asciidoc"
+description = "The Asciidoc package is a text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs."
+version = "10.2.0"
+deps = []
+provides = ["/usr/bin/asciidoc", "/usr/bin/a2x"]
+
+[downloads]
+"asciidoc-10.2.0.tar.gz" = "https://files.pythonhosted.org/packages/source/a/asciidoc/asciidoc-10.2.0.tar.gz"

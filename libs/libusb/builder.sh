@@ -5,4 +5,3 @@ into_tar_source libusb-1.0.26
 
 _make && _make install
 
-cleanup

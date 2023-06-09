@@ -1,0 +1,16 @@
+[metadata]
+name = "unzip"
+description = "The UnZip package contains ZIP extraction utilities."
+version = "60"
+deps = []
+provides = [
+  "/usr/bin/unzip",
+  "/usr/bin/funzip",
+  "/usr/bin/unzipfsx",
+  "/usr/bin/zipgrep",
+  "/usr/bin/zipinfo"
+]
+
+[downloads]
+"unzip60.tar.gz" = "https://downloads.sourceforge.net/infozip/unzip60.tar.gz"
+"unzip6.0-consolidated_fixes-1.patch" = "https://www.linuxfromscratch.org/patches/blfs/svn/unzip-6.0-consolidated_fixes-1.patch"

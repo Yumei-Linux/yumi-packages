@@ -6,4 +6,3 @@ into_tar_source wget-1.21.4
 
 _make && _make install
 
-cleanup

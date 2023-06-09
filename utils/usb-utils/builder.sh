@@ -40,4 +40,3 @@ EOF
 
 systemctl enable update-usbids.timer
 
-cleanup

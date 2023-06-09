@@ -1,0 +1,18 @@
+[metadata]
+name = "git"
+description = "Git is a fast, flexible, and distributed version control system used to track changes in code and collaborate with others."
+version = "2.41.0"
+deps = ["net/curl", "doc/asciidoc", "doc/xmlto"]
+provides = [
+  "/usr/bin/git",
+  "/usr/bin/git-receive-pack",
+  "/usr/bin/git-upload-archive",
+  "/usr/bin/git-upload-pack",
+  "/usr/git-cvsserver",
+  "/usr/bin/git-shell",
+  "/usr/bin/gitk",
+  "/usr/bin/scalar"
+]
+
+[downloads]
+"git-2.41.0.tar.xz" = "https://www.kernel.org/pub/software/scm/git/git-2.41.0.tar.xz"
