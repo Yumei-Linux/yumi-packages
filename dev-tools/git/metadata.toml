@@ -2,7 +2,7 @@
 name = "git"
 description = "Git is a fast, flexible, and distributed version control system used to track changes in code and collaborate with others."
 version = "2.41.0"
-deps = ["net/curl", "doc/asciidoc"]
+deps = ["net/curl"]
 provides = [
   "/usr/bin/git",
   "/usr/bin/git-receive-pack",
@@ -16,3 +16,5 @@ provides = [
 
 [downloads]
 "git-2.41.0.tar.xz" = "https://www.kernel.org/pub/software/scm/git/git-2.41.0.tar.xz"
+"git-manpages-2.41.0.tar.xz" = "https://www.kernel.org/pub/software/scm/git/git-manpages-2.41.0.tar.xz"
+"git-htmldocs-2.41.0.tar.xz" = "https://www.kernel.org/pub/software/scm/git/git-htmldocs-2.41.0.tar.xz"
