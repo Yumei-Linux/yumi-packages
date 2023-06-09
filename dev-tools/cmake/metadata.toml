@@ -1,0 +1,14 @@
+[metadata]
+name = "cmake"
+version = "3.26.4"
+description = "The CMake package contains a modern toolset used for generating Makefiles. It is a successor of the auto-generated configure script and aims to be platform- and compiler-independent. A significant user of CMake is KDE since version 4."
+deps = ["libs/libarchive", "libs/libuv", "net/curl", "libs/nghttp2"]
+provides = [
+  "/usr/bin/ccmake",
+  "/usr/bin/cmake",
+  "/usr/bin/cpack",
+  "/usr/bin/ctest"
+]
+
+[downloads]
+"cmake-3.26.4.tar.gz" = "https://cmake.org/files/v3.26/cmake-3.26.4.tar.gz"

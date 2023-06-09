@@ -1,0 +1,9 @@
+[metadata]
+name = "libuv"
+version = "1.45.0"
+description = "The libuv package is a multi-platform support library with a focus on asynchronous I/O."
+deps = []
+provides = ["/usr/lib/libuv.so"]
+
+[downloads]
+"libuv-v1.45.0" = "https://dist.libuv.org/dist/v1.45.0/libuv-v1.45.0.tar.gz"

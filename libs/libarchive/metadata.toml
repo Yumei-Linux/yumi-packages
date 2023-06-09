@@ -1,0 +1,13 @@
+[metadata]
+name = "libuv"
+version = "3.6.2"
+description = "The libarchive library provides a single interface for reading/writing various compression formats."
+deps = ["libs/libxml2"]
+provides = [
+  "/usr/bin/bsdcat",
+  "/usr/bin/bsdcpio",
+  "/usr/bin/bsdtar"
+]
+
+[downloads]
+"libarchive-3.6.2.tar.xz" = "https://github.com/libarchive/libarchive/releases/download/v3.6.2/libarchive-3.6.2.tar.xz"
