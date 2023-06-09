@@ -12,7 +12,7 @@ mkdir -pv build ; cd build
 meson setup \
     --prefix=/usr \
     --buildtype=release \
-    -Dman=true
+    -Dman=false
 
 ninja && ninja install
 
