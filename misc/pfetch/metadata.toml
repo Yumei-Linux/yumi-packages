@@ -1,0 +1,9 @@
+[metadata]
+name = "pfetch"
+version = "0.6.0"
+description = "A pretty system information tool written in POSIX sh."
+deps = []
+provides = ["/usr/bin/pfetch"]
+
+[downloads]
+"0.6.0.zip" = "https://github.com/dylanaraps/pfetch/archive/refs/tags/0.6.0.zip"
