@@ -1,4 +1,4 @@
-into_source glib-2.76.3
+into_tar_source glib-2.76.3
 
 patch -Np1 -i ../glib-skip_warnings-1.patch
 
