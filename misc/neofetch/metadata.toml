@@ -1,0 +1,9 @@
+[metadata]
+name = "neofetch"
+version = "7.1.0"
+description = "A command-line system information tool written in bash 3.2+"
+deps = []
+provides = ["/usr/bin/neofetch"]
+
+[downloads]
+"7.1.0.zip" = "https://github.com/dylanaraps/neofetch/archive/refs/tags/7.1.0.zip"
