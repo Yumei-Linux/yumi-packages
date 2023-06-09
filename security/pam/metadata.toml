@@ -1,0 +1,20 @@
+[metadata]
+name = "pam"
+version = "1.5.3"
+description = "The Linux PAM package contains Pluggable Authentication Modules used by the local system administrator to control how application programs authenticate users."
+deps = []
+provides = [
+  "/usr/bin/faillock",
+  "/usr/bin/mkhomedir_helper",
+  "/usr/bin/pam_namespace_helper",
+  "/usr/bin/pam_timestamp_check",
+  "/usr/bin/pwhistory_helper",
+  "/usr/bin/unix_chkpwd",
+  "/usr/bin/unix_update",
+  "/usr/lib/libpam.so",
+  "/usr/lib/libpamc.so",
+  "/usr/lib/libpam_misc.so"
+]
+
+[downloads]
+"Linux-PAM-1.5.3.tar.xz" = " https://github.com/linux-pam/linux-pam/releases/download/v1.5.3/Linux-PAM-1.5.3.tar.xz"

@@ -2,7 +2,7 @@
 name = "polkit"
 version = "122"
 description = "Polkit is a toolkit for defining and handling authorizations. It is used for allowing unprivileged processes to communicate with privileged processes."
-deps = ["libs/glib", "dev/duktape"]
+deps = ["libs/glib", "security/pam", "dev/duktape"]
 provides = [
   "/usr/bin/pkaction",
   "/usr/bin/pkcheck",
