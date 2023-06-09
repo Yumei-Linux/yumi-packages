@@ -1,7 +1,7 @@
 into_tar_source libndp-1.8
 
 ./configure --prefix=/usr \
-    --sysconfidr=/etc \
+    --sysconfdir=/etc \
     --localstatedir=/var \
     --disable-static
 
