@@ -13,4 +13,4 @@ provides = [
 
 [downloads]
 "unzip60.tar.gz" = "https://downloads.sourceforge.net/infozip/unzip60.tar.gz"
-"unzip6.0-consolidated_fixes-1.patch" = "https://www.linuxfromscratch.org/patches/blfs/svn/unzip-6.0-consolidated_fixes-1.patch"
+"unzip-6.0-consolidated_fixes-1.patch" = "https://www.linuxfromscratch.org/patches/blfs/svn/unzip-6.0-consolidated_fixes-1.patch"
