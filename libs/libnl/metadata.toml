@@ -1,0 +1,32 @@
+[metadata]
+name = "libnl"
+version = "3.7.0"
+description = "The libnl suite is a collection of libraries providing APIs to netlink protocol based Linux kernel interfaces."
+deps = []
+provides = [
+  "/usr/bin/genl-ctrl-list",
+  "/usr/bin/idiag-socket-details",
+  "/usr/bin/nl-class-add",
+  "/usr/bin/nl-class-delete",
+  "/usr/bin/nl-classid-lookup",
+  "/usr/bin/nl-class-list",
+  "/usr/bin/nl-cls-add",
+  "/usr/bin/nl-cls-delete",
+  "/usr/bin/nl-cls-list",
+  "/usr/bin/nl-link-list",
+  "/usr/bin/nl-pktloc-lookup",
+  "/usr/bin/nl-qdisc-add",
+  "/usr/bin/nl-qdisc-delete",
+  "/usr/bin/nl-qdisc-list",
+  "/usr/lib/libnl-3.so",
+  "/usr/lib/libnl-cli-3.so",
+  "/usr/lib/libnl-genl-3.so",
+  "/usr/lib/libnl-idiag-3.so",
+  "/usr/lib/libnl-nf-3.so",
+  "/usr/lib/libnl-route-3.so",
+  "/usr/lib/libnl-xfrm-3.so"
+]
+
+[downloads]
+"libnl-3.7.0.tar.gz" = "https://github.com/thom311/libnl/releases/download/libnl3_7_0/libnl-3.7.0.tar.gz"
+"libnl-doc-3.7.0.tar.gz" = "https://github.com/thom311/libnl/releases/download/libnl3_7_0/libnl-doc-3.7.0.tar.gz"

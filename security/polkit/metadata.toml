@@ -1,0 +1,17 @@
+[metadata]
+name = "polkit"
+version = "122"
+description = "Polkit is a toolkit for defining and handling authorizations. It is used for allowing unprivileged processes to communicate with privileged processes."
+deps = ["libs/glib", "dev/duktape"]
+provides = [
+  "/usr/bin/pkaction",
+  "/usr/bin/pkcheck",
+  "/usr/bin/pkexec",
+  "/usr/bin/pkttyagent",
+  "/usr/bin/polkitd",
+  "/usr/lib/libpolkit-agent-1.so",
+  "/usr/lib/libpolkit-gobject-1.so"
+]
+
+[downloads]
+"polkit-122.tar.gz" = "https://gitlab.freedesktop.org/polkit/polkit/-/archive/122/polkit-122.tar.gz"

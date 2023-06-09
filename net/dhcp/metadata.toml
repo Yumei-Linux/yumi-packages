@@ -1,0 +1,17 @@
+[metadata]
+name = "dhcp"
+version = "4.4.3-P1"
+description = "The ISC DHCP package contains both the client and server programs for DHCP. dhclient (the client) is used for connecting to a network which uses DHCP to assign network addresses."
+deps = []
+provides = [
+  "/usr/bin/dhclient",
+  "/usr/bin/dhclient-script",
+  "/usr/bin/dhcpd",
+  "/usr/bin/dhcrelay",
+  "/usr/bin/omshell",
+  "/usr/lib/libdhcpctl.a",
+  "/usr/lib/libomapip.a"
+]
+
+[downloads]
+"dhcp-4.4.3-P1.tar.gz" = "https://ftp.isc.org/isc/dhcp/4.4.3-P1/dhcp-4.4.3-P1.tar.gz"

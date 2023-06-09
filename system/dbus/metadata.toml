@@ -1,0 +1,20 @@
+[metadata]
+name = "dbus"
+version = "1.14.6"
+description = "DBus is a message bus system that enables communication between different processes on a Linux or Unix-like operating system."
+deps = []
+provides = [
+  "/usr/bin/dbus-cleanup-sockets",
+  "/usr/bin/dbus-daemon",
+  "/usr/bin/dbus-launch",
+  "/usr/bin/dbus-run-session",
+  "/usr/bin/dbus-monitor",
+  "/usr/bin/dbus-send",
+  "/usr/bin/dbus-test-tool",
+  "/usr/bin/dbus-update-activation-environment",
+  "/usr/bin/dbus-uuidgen",
+  "/usr/lib/libdbus-1.so"
+]
+
+[downloads]
+"dbus-1.14.6.tar.xz" = "https://dbus.freedesktop.org/releases/dbus/dbus-1.14.6.tar.xz"

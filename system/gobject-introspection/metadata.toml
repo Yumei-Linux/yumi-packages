@@ -1,0 +1,18 @@
+[metadata]
+name = "gobject-introspection"
+version = "1.76.1"
+description = "The GObject Introspection is used to describe the program APIs and collect them in a uniform, machine readable format."
+deps = ["libs/glib"]
+provides = [
+  "/usr/bin/g-ir-annotation-tool",
+  "/usr/bin/g-ir-compiler",
+  "/usr/bin/g-ir-doc-tool",
+  "/usr/bin/g-ir-generate",
+  "/usr/bin/g-ir-inspect",
+  "/usr/bin/g-ir-scanner",
+  "/usr/lib/libgirepository-1.0.so",
+  "/usr/lib/_giscanner.cpython-311-x86_64-linux-gnu.so"
+]
+
+[downloads]
+"gobject-introspection-1.76.1.tar.xz" = " https://download.gnome.org/sources/gobject-introspection/1.76/gobject-introspection-1.76.1.tar.xz"

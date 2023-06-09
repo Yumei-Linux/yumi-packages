@@ -1,0 +1,31 @@
+[metadata]
+name = "glib"
+version = "2.76.3"
+description = "The GLib package contains low-level libraries useful for providing data structure handling for C, portability wrappers and interfaces for such runtime functionality as an event loop, threads, dynamic loading and an object system."
+deps = ["libs/libxslt", "libs/pcre2"]
+provides = [
+  "/usr/bin/gapplication",
+  "/usr/bin/gdbus",
+  "/usr/bin/gdbus-codegen",
+  "/usr/bin/gio",
+  "/usr/bin/gio-querymodules",
+  "/usr/bin/glib-compile-resources",
+  "/usr/bin/glib-compile-schemas",
+  "/usr/bin/glib-genmarshal",
+  "/usr/bin/glib-gettextize",
+  "/usr/bin/glib-mkenums",
+  "/usr/bin/gobject-query",
+  "/usr/bin/gresource",
+  "/usr/bin/gsettings",
+  "/usr/bin/gtester",
+  "/usr/bin/gtester-report",
+  "/usr/lib/libgio-2.0.so",
+  "/usr/lib/libglib-2.0.so",
+  "/usr/lib/libgmodule-2.0.so",
+  "/usr/lib/libgobject-2.0.so",
+  "/usr/lib/libgthread-2.0.so"
+]
+
+[downloads]
+"glib-2.76.3.tar.xz" = "https://download.gnome.org/sources/glib/2.76/glib-2.76.3.tar.xz"
+"glib-skip_warnings-1.patch" = "https://www.linuxfromscratch.org/patches/blfs/svn/glib-skip_warnings-1.patch"

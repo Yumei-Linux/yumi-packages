@@ -1,0 +1,12 @@
+[metadata]
+name = "duktape"
+version = "2.7.0"
+description = "duktape is an embeddable Javascript engine, with a focus on portability and compact footprint."
+deps = []
+provides = [
+  "/usr/lib/libduktape.so",
+  "/usr/lib/libduktaped.so"
+]
+
+[downloads]
+"duktape-2.7.0.tar.xz" = "https://duktape.org/duktape-2.7.0.tar.xz"

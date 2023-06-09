@@ -1,0 +1,12 @@
+[metadata]
+name = "slang"
+version = "2.3.3"
+description = "S-Lang (slang) is an interpreted language that may be embedded into an application to make the application extensible."
+deps = []
+provides = [
+  "/usr/bin/slsh",
+  "/usr/lib/libslang.so"
+]
+
+[downloads]
+"slang-2.3.3.tar.bz2" = "https://www.jedsoft.org/releases/slang/slang-2.3.3.tar.bz2"

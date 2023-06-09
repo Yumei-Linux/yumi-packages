@@ -1,0 +1,9 @@
+[metadata]
+name = "jansson"
+version = "2.14"
+description = "The Jansson package contains a library used to encode, decode, and manipulate JSON data."
+deps = []
+provides = ["/usr/lib/libjansson.so"]
+
+[downloads]
+"jansson-2.14.tar.bz2" = "https://github.com/akheron/jansson/releases/download/v2.14/jansson-2.14.tar.bz2"

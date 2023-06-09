@@ -1,0 +1,13 @@
+[metadata]
+name = "wpa_supplicant"
+version = "2.10"
+description = "WPA Supplicant is a Wi-Fi Protected Access (WPA) client and IEEE 802.1X supplicant."
+deps = ["system/dbus", "libs/libnl", "libs/libxml2"]
+provides = [
+  "/usr/bin/wpa_supplicant",
+  "/usr/bin/wpa_passphrase",
+  "/usr/bin/wpa_cli"
+]
+
+[downloads]
+"wpa_supplicant-2.10.tar.gz" = "https://w1.fi/releases/wpa_supplicant-2.10.tar.gz"

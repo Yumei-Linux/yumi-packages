@@ -1,0 +1,9 @@
+[metadata]
+name = "libndp"
+description = "The libndp package provides a wrapper for IPv6 Neighbor Discovery Protocol."
+version = "1.8"
+deps = []
+provides = ["/usr/bin/ndptool", "/usr/lib/libndp.so"]
+
+[downloads]
+"libndp-1.8.tar.gz" = "http://libndp.org/files/libndp-1.8.tar.gz"

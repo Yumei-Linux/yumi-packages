@@ -1,0 +1,14 @@
+[metadata]
+name = "newt"
+version = "0.52.23"
+description = "Newt is a programming library for color text mode, widget based user interfaces. It can be used to add stacked windows, entry widgets, checkboxes, radio buttons, labels, plain text fields, scrollbars, etc., to text mode user interfaces. Newt is based on the S-Lang library."
+deps = ["dev/slang", "libs/popt"]
+provides = [
+  "/usr/bin/whiptail",
+  "/usr/lib/libnewt.so",
+  "/usr/lib/whiptcl.so",
+  "/usr/lib/python3.11/site-packages/_snack.so"
+]
+
+[downloads]
+"newt-0.52.23.tar.gz" = "https://releases.pagure.org/newt/newt-0.52.23.tar.gz"
