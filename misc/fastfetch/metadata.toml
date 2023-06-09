@@ -1,0 +1,9 @@
+[metadata]
+name = "fastfetch"
+version = "1.11.3"
+description = "A neofetch-replacement made in bare C which is fast af"
+deps = []
+provides = ["/usr/bin/fastfetch", "/usr/bin/flashfetch"]
+
+[downloads]
+"fastfetch-1.11.3-Linux.zip" = "https://github.com/LinusDierheimer/fastfetch/releases/download/1.11.3/fastfetch-1.11.3-Linux.zip"
