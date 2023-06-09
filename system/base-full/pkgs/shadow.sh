@@ -17,9 +17,9 @@ touch /usr/bin/passwd
     --disable-static \
     --with-group-name-max-length=32
 
-make
-make exec_prefix=/usr install
-make -C man install-man
+_make
+_make exec_prefix=/usr install
+_make -C man install-man
 
 # configuration
 pwconv

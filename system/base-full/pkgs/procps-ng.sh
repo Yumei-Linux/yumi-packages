@@ -6,4 +6,4 @@ source procps-ng-4.0.2
     --disable-kill \
     --with-systemd
 
-make && make install
+_make && _make install

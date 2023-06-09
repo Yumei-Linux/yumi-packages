@@ -5,4 +5,4 @@ source bash-5.2.15
     --with-installed-readline \
     --docdir=/usr/share/doc/bash-5.2.15
 
-make && make install
+_make && _make install

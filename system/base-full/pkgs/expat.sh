@@ -4,6 +4,6 @@ source expat-2.5.0
     --disable-static \
     --docdir=/usr/share/doc/expat-2.5.0
 
-make && make install
+_make && _make install
 
 install -v -m644 doc/*.{html,css} /usr/share/doc/expat-2.5.0

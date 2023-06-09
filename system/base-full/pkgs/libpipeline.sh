@@ -1,3 +1,3 @@
 source libpipeline-1.5.7
 ./configure --prefix=/usr
-make && make install
+_make && _make install

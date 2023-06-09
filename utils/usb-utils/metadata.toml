@@ -1,0 +1,9 @@
+[metadata]
+name = "usb-utils"
+description = "The USB Utils package contains utilities used to display information about USB buses in the system and the devices connected to them."
+version = "015"
+provides = ["/usr/bin/lsusb", "/usr/bin/lsusb.py", "/usr/bin/usb-devices", "/usr/bin/usbhid-dump"]
+deps = ["libs/libusb", "net/wget"]
+
+[downloads]
+"usbutils-015.tar.gz" = " https://github.com/gregkh/usbutils/archive/v015/usbutils-015.tar.gz"

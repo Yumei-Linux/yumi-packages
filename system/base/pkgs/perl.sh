@@ -10,4 +10,4 @@ sh Configure -des \
     -Dvendorlib=/usr/lib/perl5/perl5.36/vendor_perl \
     -Dvendorarch=/usr/lib/perl5/perl5.36/vendor_perl
 
-make && make install
+_make && _make install

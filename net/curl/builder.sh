@@ -6,7 +6,7 @@ into_tar_source curl-8.1.1
     --enable-threaded-resolver \
     --with-ca-path=/etc/ssl/certs
 
-make && make install
+_make && _make install
 
 rm -rf docs/examples/.deps
 find docs \( -name Makefile\* -o -name \*.1 -o -name \*.3 \) -exec rm {} \;

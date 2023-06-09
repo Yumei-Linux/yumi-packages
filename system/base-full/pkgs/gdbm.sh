@@ -4,4 +4,4 @@ source gdbm-1.23
     --disable-static \
     --enable-libgdbm-compat
 
-make && make install
+_make && _make install

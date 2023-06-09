@@ -4,4 +4,4 @@ source libffi-3.4.4
     --disable-static \
     --with-gcc-arch=native
 
-make && make install
+_make && _make install

@@ -1,2 +1,2 @@
 source man-pages-6.03
-make prefix=/usr install
+_make prefix=/usr install

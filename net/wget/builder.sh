@@ -4,6 +4,6 @@ into_tar_source wget-1.21.4
     --sysconfdir=/etc \
     --with-ssl=openssl
 
-make && make install
+_make && _make install
 
 cleanup

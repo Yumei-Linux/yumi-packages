@@ -11,6 +11,6 @@ source inetutils-2.4
     --disable-rsh \
     --disable-servers
 
-make && make install
+_make && _make install
 
 mv -v /usr/{,s}bin/ifconfig

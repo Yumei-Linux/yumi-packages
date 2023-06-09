@@ -5,4 +5,4 @@ source pkg-config-0.29.2
     --disable-host-tool \
     --docdir=/usr/share/doc/pkg-config-0.29.2
 
-make && make install
+_make && _make install

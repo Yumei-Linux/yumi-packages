@@ -15,4 +15,4 @@ source util-linux-2.38.1
     --without-python \
     --docdir=/usr/share/doc/util-linux-2.38.1
 
-make && make install
+_make && _make install

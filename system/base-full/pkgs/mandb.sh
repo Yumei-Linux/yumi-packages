@@ -9,4 +9,4 @@ source man-db-2.11.2
     --with-vgrind=/usr/bin/vgrind \
     --with-grap=/usr/bin/grap
 
-make && make install
+_make && _make install

@@ -12,8 +12,8 @@ mkdir -pv build ; cd build
     --enable-64-bit-bfd \
     --with-system-zlib
 
-make tooldir=/usr
-make tooldir=/usr install
+_make tooldir=/usr
+_make tooldir=/usr install
 
 rm -fv /usr/lib/lib{bfd,ctf,ctf-nobfd,sframe,opcodes}.a
 rm -fv /usr/share/man/man1/{gprofng,gp-*}.1

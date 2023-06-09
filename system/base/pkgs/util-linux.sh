@@ -16,4 +16,4 @@ mkdir -pv /var/lib/hwclock
     --without-python \
     runstatedir=/run
 
-make && make install
+_make && _make install

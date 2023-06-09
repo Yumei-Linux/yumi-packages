@@ -6,4 +6,4 @@ sed -e 's/SECONDS|/&SHLVL|/' \
 
 ./configure --prefix=/usr
 
-make && make install
+_make && _make install

@@ -7,7 +7,7 @@ source kmod-30
     --with-zstd \
     --with-zlib
 
-make && make install
+_make && _make install
 
 for target in depmod insmod modinfo modprobe rmmod; do
     ln -sfv ../bin/kmod /usr/sbin/$target

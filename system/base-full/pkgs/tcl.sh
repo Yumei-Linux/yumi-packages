@@ -8,7 +8,7 @@ cd unix
 ./configure --prefix=/usr \
     --mandir=/usr/share/man
 
-make
+_make
 
 sed -e "s|$SRCDIR/unix|/usr/lib|" \
     -e "s|$SRCDIR|/usr/include|" \
@@ -27,6 +27,6 @@ sed -e "s|$SRCDIR/unix/pkgs/itcl4.2.3|/usr/lib/itcl4.2.3|" \
 
 unset SRCDIR
 
-make install
+_make install
 chmod -v u+w /usr/lib/libtcl8.6.so
-make install-private-headers
+_make install-private-headers

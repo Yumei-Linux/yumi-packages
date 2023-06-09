@@ -10,6 +10,6 @@ patch -Np1 -i ../readline-8.2-upstream_fix-1.patch
     --with-curses \
     --docdir=/usr/share/doc/readline-8.2
 
-make SHLIB_LIBS="-lncursesw"
-make SHLIB_LIBS="-lncursesw" install
+_make SHLIB_LIBS="-lncursesw"
+_make SHLIB_LIBS="-lncursesw" install
 install -v -m644 doc/*.{ps,pdf,html,dvi} /usr/share/doc/readline-8.2

@@ -9,5 +9,5 @@ sed -e 's/+01,234,567/+1,234,567 /' \
     --enable-thread-safe \
     --docdir=/usr/share/doc/mpfr-4.2.0
 
-make && make html
-make install && make install-html
+_make && _make html
+_make install && _make install-html

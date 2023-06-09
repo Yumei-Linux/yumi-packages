@@ -9,5 +9,5 @@ patch -Np1 -i ../grub-2.06-upstream_fixes-1.patch
     --disable-efimu \
     --disable-werror
 
-make && make install
+_make && _make install
 mv -v /etc/bash_completion.d/grub /usr/share/bash-completion/completions

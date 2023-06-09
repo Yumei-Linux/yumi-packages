@@ -22,11 +22,12 @@ if [ ! -d /etc/yumi ]; then
     mkdir -pv /etc/yumi
 fi
 
-if [ -f /etc/yumi/make_opts ]; then
-    export MAKEOPTS=$(cat /etc/yumi/make_opts)
-    alias make="make ${MAKEOPTS}"
-    echo "** CONFIGURING MAKE WITH MAKE_OPTS=${MAKEOPTS}"
-fi
+_make () {
+    if [ -f /etc/yumi/make_opts ]; then
+        echo "* Calling make with $(cat /etc/yumi/make_opts)"
+        make $(cat /etc/yumi/make_opts) ${@}
+    fi
+}
 
 if [ -f /etc/yumi/ninja_jobs ]; then
     export NINJAJOBS=$(cat /etc/yumi/ninja_jobs | xargs)

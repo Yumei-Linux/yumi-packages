@@ -6,4 +6,4 @@ sed -e '/ifdef SIGPIPE/,+2 d' \
 
 ./configure --prefix=/usr
 
-make && make install
+_make && _make install

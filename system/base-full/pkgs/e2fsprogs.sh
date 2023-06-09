@@ -10,7 +10,7 @@ mkdir -pv build ; cd build
     --disable-uuidd \
     --disable-fsck
 
-make && make install
+_make && _make install
 
 rm -fv /usr/lib/{libcom_err,libe2p,libext2fs,libss}.a
 

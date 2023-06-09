@@ -7,7 +7,7 @@ sed -i 's/resizecons.8 //' docs/man/man8/Makefile.in
 
 ./configure --prefix=/usr --disable-vlock
 
-make && make install
+_make && _make install
 
 mkdir -pv /usr/share/doc/kbd-2.5.1
 cp -R -v docs/doc/* /usr/share/doc/kbd-2.5.1

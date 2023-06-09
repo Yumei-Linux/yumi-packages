@@ -6,7 +6,7 @@ source Python-3.11.2
     --with-system-ffi \
     --enable-optimizations
 
-make && make install
+_make && _make install
 
 cat > /etc/pip.conf << EOF
 [global]

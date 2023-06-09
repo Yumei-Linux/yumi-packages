@@ -4,6 +4,6 @@ source flex-2.6.4
     --docdir=/usr/share/doc/flex-2.6.4 \
     --disable-static
 
-make && make install
+_make && _make install
 
 ln -sv flex /usr/bin/lex

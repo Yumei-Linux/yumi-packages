@@ -4,4 +4,4 @@ source Python-3.11.2
     --enable-shared \
     --without-ensurepip
 
-make && make install
+_make && _make install

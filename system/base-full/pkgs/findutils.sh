@@ -5,4 +5,4 @@ case $(uname -m) in
     x86_64) ./configure --prefix=/usr --localstatedir=/var/lib/locate ;;
 esac
 
-make && make install
+_make && _make install

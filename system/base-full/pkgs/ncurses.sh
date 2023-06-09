@@ -10,8 +10,8 @@ source ncurses-6.4
     --enable-widec \
     --with-pkg-config-libdir=/usr/lib/pkgconfig
 
-make
-make DESTDIR=$PWD/dest install
+_make
+_make DESTDIR=$PWD/dest install
 install -vm755 dest/usr/lib/libncursesw.so.6.4 /usr/lib
 rm -v dest/usr/lib/libncursesw.so.6.4
 cp -av dest/* /

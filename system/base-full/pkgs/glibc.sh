@@ -16,10 +16,10 @@ echo "rootsbindir=/usr/sbin" > configprms
     --with-headers=/usr/include \
     libc_cv_slibdir=/usr/lib
 
-make
+_make
 touch /etc/ld.so.conf
 sed '/test-installation/s@$(PERL)@echo not running@' -i ../Makefile
-make install
+_make install
 
 sed '/RTLDLIST=/s@/usr@@g' -i /usr/bin/ldd
 cp -v ../nscd/nscd.conf /etc/nscd.conf
@@ -28,7 +28,7 @@ mkdir -pv /var/cache/nscd
 install -v -Dm644 ../nscd/nscd.tmpfiles /usr/lib/tmpfiles.d/nscd.conf
 install -v -Dm644 ../nscd/nscd.service /usr/lib/systemd/system/nscd.service
 
-make localedata/install-locales
+_make localedata/install-locales
 localedef -i POSIX -f UTF-8 C.UTF-8 2> /dev/null || true
 localedef -i ja_JP -f SHIFT_JIS ja_JP.SJIS 2> /dev/null || true
 
@@ -65,7 +65,9 @@ echo "Determine your timezone id! (then you have to write the timezone displayed
 tzselect
 read timezone
 
-ln -svf /usr/share/zoneinfo/$timezone /etc/localtime
+if [[ "$timezone" != "" ]]; then
+    ln -svf /usr/share/zoneinfo/$timezone /etc/localtime
+fi
 
 cat > /etc/ld.so.conf << "EOF"
 # Begin /etc/ld.so.conf

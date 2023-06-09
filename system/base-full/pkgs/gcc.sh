@@ -18,7 +18,7 @@ mkdir -pv build ; cd build
     --disable-bootstrap \
     --with-system-zlib
 
-make && make install
+_make && _make install
 
 chown -v -R root:root \
     /usr/lib/gcc/$(gcc -dumpmachine)/12.2.0/include{,-fixed}
