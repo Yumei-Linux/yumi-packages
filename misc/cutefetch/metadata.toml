@@ -1,0 +1,9 @@
+[metadata]
+name = "cutefetch"
+version = "git"
+description = "A little fetch utility made with bare c and good performance"
+deps = []
+provides = ["/usr/bin/cutefetch"]
+
+[downloads]
+"main.zip" = "https://github.com/AlphaTechnolog/cutefetch/archive/refs/heads/main.zip"
