@@ -1,4 +1,4 @@
-into_tar_source usbutils-015.tar.gz
+into_tar_source usbutils-015
 
 autoreconf -fiv
 
@@ -39,3 +39,5 @@ WantedBy=timers.target
 EOF
 
 systemctl enable update-usbids.timer
+
+cleanup
