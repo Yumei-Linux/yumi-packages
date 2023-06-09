@@ -1,0 +1,14 @@
+[metadata]
+name = "nspr"
+version = "4.35"
+description = "Netscape Portable Runtime (NSPR) provides a platform-neutral API for system level and libc like functions."
+deps = []
+provides = [
+  "/usr/bin/nspr-config",
+  "/usr/lib/libnspr4.so",
+  "/usr/lib/libplc4.so",
+  "/usr/lib/libplds4.so"
+]
+
+[downloads]
+"nspr-4.35.tar.gz" = "https://archive.mozilla.org/pub/nspr/releases/v4.35/src/nspr-4.35.tar.gz"

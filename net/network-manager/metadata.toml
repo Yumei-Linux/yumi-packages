@@ -10,7 +10,8 @@ deps = [
   "net/wpa_supplicant",
   "dev/newt",
   "security/polkit",
-  "system/gobject-introspection"
+  "system/gobject-introspection",
+  "libs/nss"
 ]
 provides = [
   "/usr/bin/NetworkManager",
