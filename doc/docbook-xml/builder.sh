@@ -1,6 +1,6 @@
 into_zip_source docbook-xml-4.5
 
-install -v -d -m755 /usr/share/docbook/xml-dtd-4.5
+install -v -d -m755 /usr/share/xml/docbook/xml-dtd-4.5
 install -v -d -m755 /etc/xml
 
 chown -R root:root .
