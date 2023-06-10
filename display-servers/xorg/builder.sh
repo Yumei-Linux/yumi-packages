@@ -39,7 +39,7 @@ declare -a packages=(
 
 load() {
     # . /var/yumi/display-servers/xorg/pkgs/${@}.sh || exit 1
-    . /var/yumi/display-servers/xorg/pkgs/${@}.sh 2>&1 > /var/log/yumi-xorg-log || exit 0
+    . /var/yumi/display-servers/xorg/pkgs/${@}.sh
 }
 
 add_source() {
