@@ -1,0 +1,20 @@
+[metadata]
+name = "fontconfig"
+version = "2.14.2"
+description = "The Fontconfig package contains a library and support programs used for configuring and customizing font access."
+deps = ["graphics/freetype", "utils/unzip", "net/curl"]
+provides = [
+  "/usr/bin/fc-cache",
+  "/usr/bin/fc-cat",
+  "/usr/bin/fc-conflist",
+  "/usr/bin/fc-list",
+  "/usr/bin/fc-match",
+  "/usr/bin/fc-pattern",
+  "/usr/bin/fc-query",
+  "/usr/bin/fc-scan",
+  "/usr/bin/fc-validate",
+  "/usr/lib/libfontconfig.so"
+]
+
+[downloads]
+"fontconfig-2.14.2.tar.xz" = "https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.14.2.tar.xz"

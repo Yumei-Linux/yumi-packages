@@ -1,0 +1,10 @@
+[metadata]
+name = "freetype"
+version = "2.13.0"
+description = "The FreeType2 package contains a library which allows applications to properly render TrueType fonts."
+deps = ["utils/gnu-which", "libs/libpng"]
+provides = ["/usr/bin/freetype-config", "/usr/lib/libfreetype.so"]
+
+[downloads]
+"freetype-2.13.0.tar.xz" = "https://downloads.sourceforge.net/freetype/freetype-2.13.0.tar.xz"
+"freetype-doc-2.13.0.tar.xz" = "https://downloads.sourceforge.net/freetype/freetype-doc-2.13.0.tar.xz"
