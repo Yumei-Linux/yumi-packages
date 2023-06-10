@@ -1,0 +1,30 @@
+[metadata]
+name = "gtk3"
+version = "3.24.38"
+description = "The GTK+ 3 package contains libraries used for creating graphical user interfaces for applications."
+deps = [
+  "graphics/at-spi2-core",
+  "graphics/gdk-pixbuf",
+  "libs/libepoxy",
+  "libs/pango",
+  "libs/libxslt"
+]
+provides = [
+  "/usr/bin/broadwayd",
+  "/usr/bin/gtk3-demo",
+  "/usr/bin/gtk3-demo-application",
+  "/usr/bin/gtk3-icon-browser",
+  "/usr/bin/gtk3-widget-factory",
+  "/usr/bin/gtk-builder-tool",
+  "/usr/bin/gtk-encode-symbolic-svg",
+  "/usr/bin/gtk-launch",
+  "/usr/bin/gtk-query-immodules-3.0",
+  "/usr/bin/gtk-query-settings",
+  "/usr/bin/gtk-update-icon-cache",
+  "/usr/lib/libgailutil-3.so",
+  "/usr/lib/libgdk-3.so",
+  "/usr/lib/libgtk-3.so"
+]
+
+[downloads]
+"gtk+-3.24.38.tar.xz" = "https://download.gnome.org/sources/gtk+/3.24/gtk+-3.24.38.tar.xz"

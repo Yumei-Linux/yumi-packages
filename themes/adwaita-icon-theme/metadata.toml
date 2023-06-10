@@ -1,0 +1,9 @@
+[metadata]
+name = "adwaita-icon-theme"
+version = "44.0"
+description = "The adwaita icon theme package contains an icon theme for gtk+ 3 and gtk 4 apps"
+deps = ["graphics/gtk", "libs/librsvg"]
+provides = ["/usr/share/icons/Adwaita/index.theme"]
+
+[downloads]
+"adwaita-icon-theme-44.0.tar.xz" = "https://download.gnome.org/sources/adwaita-icon-theme/44/adwaita-icon-theme-44.0.tar.xz"
