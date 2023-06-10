@@ -1,0 +1,20 @@
+[metadata]
+name = "gdk-pixbuf"
+version = "2.42.10"
+description = "The Gdk Pixbuf package is a toolkit for image loading and pixel buffer manipulation. It is used by GTK+ 2 and GTK+ 3 to load and manipulate images. In the past it was distributed as part of GTK+ 2 but it was split off into a separate package in preparation for the change to GTK+ 3."
+deps = [
+  "libs/glib",
+  "libs/libjpeg-turbo",
+  "libs/libpng",
+  "system/shared-mime-info"
+]
+provides = [
+  "/usr/bin/gdk-pixbuf-csource",
+  "/usr/bin/gdk-pixbuf-pixdata",
+  "/usr/bin/gdk-pixbuf-query-loaders",
+  "/usr/bin/gdk-pixbuf-thumbnailer",
+  "/usr/lib/libgdk_pixbuf-2.0.so"
+]
+
+[downloads]
+"gdk-pixbuf-2.42.10.tar.xz" = "https://download.gnome.org/sources/gdk-pixbuf/2.42/gdk-pixbuf-2.42.10.tar.xz"

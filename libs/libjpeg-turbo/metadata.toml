@@ -1,0 +1,18 @@
+[metadata]
+name = "libjpeg-turbo"
+version = "2.1.5.1"
+description = "libjpeg-turbo is a fork of the original IJG libjpeg which uses SIMD to accelerate baseline JPEG compression and decompression. libjpeg is a library that implements JPEG image encoding, decoding and transcoding."
+deps = ["dev-tools/cmake"]
+provides = [
+  "/usr/bin/cjpeg",
+  "/usr/bin/djpeg",
+  "/usr/bin/jpegtran",
+  "/usr/bin/rdjpgcom",
+  "/usr/bin/tjbench",
+  "/usr/bin/wrjpgcom",
+  "/usr/lib/libjpeg.so",
+  "/usr/lib/libturbojpeg.so"
+]
+
+[downloads]
+"ligjpeg-turbo-2.1.5.1.tar.gz" = "https://downloads.sourceforge.net/libjpeg-turbo/libjpeg-turbo-2.1.5.1.tar.gz"

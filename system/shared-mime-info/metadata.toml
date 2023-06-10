@@ -1,0 +1,9 @@
+[metadata]
+name = "shared-mime-info"
+version = "2.2"
+description = "The Shared Mime Info package contains a MIME database. This allows central updates of MIME information for all supporting applications."
+deps = ["libs/glib", "libs/libxml2"]
+provides = ["/usr/bin/update-mime-database"]
+
+[downloads]
+"shared-mime-info-2.2.tar.gz" = "https://gitlab.freedesktop.org/xdg/shared-mime-info/-/archive/2.2/shared-mime-info-2.2.tar.gz"
