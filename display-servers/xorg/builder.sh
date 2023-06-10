@@ -35,11 +35,20 @@ declare -a packages=(
     xcb-proto
     libxcb
     xorg-libraries
+    libxcvt
+    xcb-util
+    xcb-util-image
+    xcb-util-keysyms
+    xcb-util-renderutil
+    xcb-util-wm
+    xcb-util-cursor
+    libdrm
+    mesa
+    xbitmaps
 )
 
 load() {
-    # . /var/yumi/display-servers/xorg/pkgs/${@}.sh || exit 1
-    . /var/yumi/display-servers/xorg/pkgs/${@}.sh || read
+    . /var/yumi/display-servers/xorg/pkgs/${@}.sh || exit 1
 }
 
 add_source() {

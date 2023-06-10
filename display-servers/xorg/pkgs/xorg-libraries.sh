@@ -42,7 +42,7 @@ md5sum -c ../lib-7.md5
 echo "[I] Installing xorg-libraries..."
 for package in $(grep -v '^#' ../lib-7.md5 | awk '{print $2}'); do
   packagedir=${package%.tar.?z*}
-  echo "  * Installing $packagedir..."
+  echo "[I] Installing $packagedir..."
   sleep 1
   tar -xvf $package
   pushd $packagedir

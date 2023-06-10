@@ -1,8 +1,8 @@
 [metadata]
 name = "xorg"
-version = "latest"
+version = "unspecified (pkgs-collection)"
 description = "This package contains the base packages for the Xorg implementation to work"
-deps = ["graphics/fontconfig", "net/wget"]
+deps = ["graphics/fontconfig", "net/wget", "net/curl", "libs/mako"]
 provides = []
 
 [downloads]

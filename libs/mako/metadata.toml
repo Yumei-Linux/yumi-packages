@@ -1,0 +1,9 @@
+[metadata]
+name = "mako"
+version = "1.2.4"
+description = "Mako is a Python module that implements hyperfast and lightweight templating for the Python platform."
+deps = []
+provides = ["/usr/bin/mako-render"]
+
+[downloads]
+"Mako-1.2.4.tar.gz" = "https://files.pythonhosted.org/packages/source/M/Mako/Mako-1.2.4.tar.gz"
