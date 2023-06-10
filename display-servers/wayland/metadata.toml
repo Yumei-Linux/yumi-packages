@@ -1,0 +1,15 @@
+[metadata]
+name = "wayland"
+version = "1.22.0"
+description = "Wayland is a project to define a protocol for a compositor to talk to its clients as well as a library implementation of the protocol."
+deps = ["libs/libxml2"]
+provides = [
+  "/usr/bin/wayland-scanner",
+  "/usr/lib/libwayland-client.so",
+  "/usr/lib/libwayland-cursor.so",
+  "/usr/lib/libwayland-egl.so",
+  "/usr/lib/libwayland-server.so"
+]
+
+[downloads]
+"wayland-1.22.0.tar.xz" = "https://gitlab.freedesktop.org/wayland/wayland/-/releases/1.22.0/downloads/wayland-1.22.0.tar.xz"

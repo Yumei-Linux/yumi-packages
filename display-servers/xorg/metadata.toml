@@ -2,7 +2,14 @@
 name = "xorg"
 version = "unspecified (pkgs-collection)"
 description = "This package contains the base packages for the Xorg implementation to work"
-deps = ["graphics/fontconfig", "net/wget", "net/curl", "libs/mako", "dev/llvm"]
 provides = []
+deps = [
+  "graphics/fontconfig",
+  "net/wget",
+  "net/curl",
+  "libs/mako",
+  "dev/llvm",
+  "display-servers/wayland-protocols"
+]
 
 [downloads]
