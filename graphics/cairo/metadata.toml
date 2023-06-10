@@ -1,0 +1,14 @@
+[metadata]
+name = "cairo"
+version = "1.17.6"
+description = "Cairo is a 2D graphics library for multiple output devices. Supported targets include X Window, win32, image buffers, PostScript, PDF, and SVG."
+deps = ["libs/libpng", "libs/pixman"]
+provides = [
+  "/usr/bin/cairo-trace",
+  "/usr/lib/libcairo.so",
+  "/usr/lib/libcairo-gobject.so",
+  "/usr/lib/libcairo-script-interpreter.so"
+]
+
+[downloads]
+"cairo-1.17.6.tar.xz" = "https://download.gnome.org/sources/cairo/1.17/cairo-1.17.6.tar.xz"
