@@ -1,0 +1,13 @@
+[metadata]
+name = "alsa-lib"
+version = "1.2.9"
+description = "The ALSA Library package contains the ALSA library used by programs (including ALSA Utilities) requiring access to the ALSA sound interface."
+deps = []
+provides = [
+  "/usr/bin/aserver",
+  "/usr/lib/libasound.a",
+  "/usr/lib/libatopology.a"
+]
+
+[downloads]
+"alsa-lib-1.2.9.tar.bz2" = "https://www.alsa-project.org/files/pub/lib/alsa-lib-1.2.9.tar.bz2"

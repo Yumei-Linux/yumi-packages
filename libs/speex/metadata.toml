@@ -1,0 +1,15 @@
+[metadata]
+name = "speex"
+version = "1.2.1"
+description = "Speex is an audio compression format designed specifically for speech. It is well-adapted to internet applications and provides useful features that are not present in most other CODECs."
+deps = ["libs/libogg"]
+provides = [
+  "/usr/bin/speexenc",
+  "/usr/bin/speexdec",
+  "/usr/lib/libspeex.so",
+  "/usr/lib/libspeexdsp.so"
+]
+
+[downloads]
+"speex-1.2.1.tar.gz" = "https://downloads.xiph.org/releases/speex/speex-1.2.1.tar.gz"
+"speexdsp-1.2.1.tar.gz" = " https://downloads.xiph.org/releases/speex/speexdsp-1.2.1.tar.gz"
