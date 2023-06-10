@@ -1,4 +1,4 @@
-into_tar_source bash-5.2.9
+into_tar_source bash-5.2.15
 
 ./configure --prefix=/usr \
     --build=$(support/config.guess) \
