@@ -1,0 +1,9 @@
+[metadata]
+name = "make-ca"
+version = "1.12"
+description = "Public Key Infrastructure (PKI) is a method to validate the authenticity of an otherwise unknown entity across untrusted networks."
+deps = ["security/p11-kit", "libs/nss"]
+provides = ["/usr/bin/make-ca"]
+
+[downloads]
+"make-ca-1.12.tar.xz" = "https://github.com/lfs-book/make-ca/releases/download/v1.12/make-ca-1.12.tar.xz"
