@@ -1,0 +1,9 @@
+[metadata]
+name = "nodejs"
+version = "20.3.0"
+description = "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine that enables server-side JavaScript programming."
+deps = ["utils/rsync"]
+provides = ["/usr/bin/node", "/usr/bin/npm", "/usr/bin/npx", "/usr/bin/corepack"]
+
+[downloads]
+"node-v20.3.0-linux-x86.tar.xz" = "https://nodejs.org/dist/v20.3.0/node-v20.3.0-linux-x64.tar.xz"
