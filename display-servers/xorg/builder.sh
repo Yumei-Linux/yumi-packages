@@ -46,6 +46,8 @@ declare -a packages=(
     mesa
     xbitmaps
     xorg-applications
+    xcursor-themes
+    xorg-fonts
 )
 
 load() {
