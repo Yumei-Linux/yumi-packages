@@ -2,7 +2,7 @@
 name = "adwaita-icon-theme"
 version = "44.0"
 description = "The adwaita icon theme package contains an icon theme for gtk+ 3 and gtk 4 apps"
-deps = ["graphics/gtk", "libs/librsvg"]
+deps = ["graphics/gtk3", "libs/librsvg"]
 provides = ["/usr/share/icons/Adwaita/index.theme"]
 
 [downloads]
