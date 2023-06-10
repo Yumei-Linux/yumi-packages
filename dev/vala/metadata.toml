@@ -1,0 +1,22 @@
+[metadata]
+name = "vala"
+version = "0.56.8"
+description = "Vala is a new programming language that aims to bring modern programming language features to GNOME developers without imposing any additional runtime requirements and without using a different ABI compared to applications and libraries written in C."
+deps = ["libs/glib"]
+provides = [
+  "/usr/bin/vala",
+  "/usr/bin/vala-0.56",
+  "/usr/bin/valac",
+  "/usr/bin/valadoc",
+  "/usr/bin/vala-gen-introspect",
+  "/usr/bin/vapigen",
+  "/usr/bin/valac-0.56",
+  "/usr/bin/valadoc-0.56",
+  "/usr/bin/vala-gen-introspect-0.56",
+  "/usr/bin/vapigen-0.56",
+  "/usr/lib/libvala-0.56.so",
+  "/usr/lib/libvaladoc-0.56.so"
+]
+
+[downloads]
+"vala-0.56.8.tar.xz" = "https://download.gnome.org/sources/vala/0.56/vala-0.56.8.tar.xz"

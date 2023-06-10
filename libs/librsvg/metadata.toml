@@ -1,0 +1,16 @@
+[metadata]
+name = "librsvg"
+version = "2.56.1"
+description = "The librsvg package contains a library and tools used to manipulate, convert and view Scalable Vector Graphic (SVG) images."
+deps = [
+  "graphics/cairo",
+  "graphics/gdk-pixbuf",
+  "libs/pango",
+  "dev/rustup",
+  "system/gobject-introspection",
+  "dev/vala"
+]
+provides = ["/usr/bin/rsvg-convert", "/usr/lib/librsvg-2.so"]
+
+[downloads]
+"librsvg-2.56.1.tar.xz" = "https://download.gnome.org/sources/librsvg/2.56/librsvg-2.56.1.tar.xz"

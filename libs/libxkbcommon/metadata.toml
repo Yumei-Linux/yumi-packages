@@ -1,0 +1,14 @@
+[metadata]
+name = "libxkbcommon"
+version = "1.5.0"
+description = "libxkbcommon is a keymap compiler and support library which processes a reduced subset of keymaps as defined by the XKB specification."
+deps = [] # but yeah this pkg requires to be installed after display-servers/xorg
+provides = [
+  "/usr/bin/xkbcli",
+  "/usr/lib/libxkbcommon.so",
+  "/usr/lib/libxkbcommon-x11.so",
+  "/usr/lib/libxkbregistry.so"
+]
+
+[downloads]
+"libxkbcommon-1.5.0.tar.xz" = "https://xkbcommon.org/download/libxkbcommon-1.5.0.tar.xz"
