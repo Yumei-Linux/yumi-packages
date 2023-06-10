@@ -1,0 +1,9 @@
+[metadata]
+name = "rsync"
+version = "3.2.3"
+description = "The rsync package contains the rsync utility. This is useful for synchronizing large file archives over a network."
+deps = ["libs/popt"]
+provides = ["/usr/bin/rsync", "/usr/bin/rsync-ssl"]
+
+[downloads]
+"rsync-3.2.3.tar.gz" = "https://www.samba.org/ftp/rsync/src/rsync-3.2.3.tar.gz"
