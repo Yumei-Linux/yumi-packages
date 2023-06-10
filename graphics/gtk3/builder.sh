@@ -5,7 +5,7 @@ mkdir -pv build ; cd build
 meson setup --prefix=/usr \
     --buildtype=release \
     -Dman=false \
-    -Dbroadway_bakcend=true \
+    -Dbroadway_backend=true \
     ..
 
 ninja && ninja install
