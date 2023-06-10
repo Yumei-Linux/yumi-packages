@@ -1,0 +1,23 @@
+[metadata]
+name = "rustup"
+version = "latest"
+description = "Rust installation tool, this package installs rustup globally for each user at /usr"
+deps = []
+provides = [
+  '/usr/bin/cargo',
+  '/usr/bin/cargo-clippy',
+  '/usr/bin/cargo-fmt',
+  '/usr/bin/cargo-miri',
+  '/usr/bin/clippy-driver',
+  '/usr/bin/rls',
+  '/usr/bin/rust-analyzer',
+  '/usr/bin/rust-gdb',
+  '/usr/bin/rust-gdbgui',
+  '/usr/bin/rust-lldb',
+  '/usr/bin/rustc',
+  '/usr/bin/rustdoc',
+  '/usr/bin/rustfmt',
+  '/usr/bin/rustup'
+]
+
+[downloads]
