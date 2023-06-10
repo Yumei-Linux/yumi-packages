@@ -35,6 +35,11 @@ load() {
     . /var/yumi/display-servers/xorg/pkgs/${@}.sh || exit 1
 }
 
+add_source() {
+    wget ${1}
+    into_tar_source ${2}
+}
+
 for pkg in ${packages[@]}; do
     echo "[I] Installing $pkg..."
     sleep 1
