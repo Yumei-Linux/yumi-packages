@@ -5,6 +5,7 @@ mkdir -pv build ; cd build
 meson setup --prefix=/usr \
     --buildtype=release \
     --wrap-mode=nofallback \
+    -Dman=false
     ..
 
 ninja && ninja install
