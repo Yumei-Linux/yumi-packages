@@ -4,11 +4,6 @@ version = "9.0.1503"
 description = "The Vim package, which is an abbreviation for VI IMproved, contains a vi clone with extra features as compared to the original vi."
 deps = ["utils/rsync"]
 provides = [
-  "/usr/bin/gview",
-  "/usr/bin/gvim",
-  "/usr/bin/gvimtutor",
-  "/usr/bin/rgview",
-  "/usr/bin/rgvim",
   "/usr/bin/ex",
   "/usr/bin/rview",
   "/usr/bin/rvim",
