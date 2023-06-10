@@ -11,12 +11,18 @@ if [[ "$wantsgtk" != 'y' && "$wantsgtk" != 'n' && "$wantsgtk" != "" ]]; then
     exit 1
 fi
 
+echo "wantsgtk -> $wantsgtk"
+
 if [[ "$wantsgtk" == "y" ]]; then
+    echo "[I] Configuring with --enable-gui=gtk3"
+    exit 1
     ./configure --prefix=/usr \
         --with-features=huge \
         --enable-gui=gtk3 \
         --with-tlib=ncursesw
 else
+    echo "bad"
+    exit 1
     ./configure --prefix=/usr \
         --with-features=huge \
         --with-tlib=ncursesw
