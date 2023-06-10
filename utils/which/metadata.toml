@@ -1,0 +1,8 @@
+[metadata]
+name = "which"
+version = "unspecified"
+description = "This package installs a shell version of the `utils/gnu-which` tool."
+deps = []
+provides = ["/usr/bin/which"]
+
+[downloads]

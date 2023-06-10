@@ -1,0 +1,9 @@
+[metadata]
+name = "gnu-which"
+version = "2.21"
+description = "This package builds the GNU which tool"
+deps = []
+provides = ["/usr/bin/which"]
+
+[downloads]
+"which-2.21.tar.gz" = "https://ftp.gnu.org/gnu/which/which-2.21.tar.gz"

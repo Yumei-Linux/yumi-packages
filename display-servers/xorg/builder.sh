@@ -33,6 +33,7 @@ declare -a packages=(
     libXau
     libXdmcp
     xcb-proto
+    libxcb
 )
 
 load() {
