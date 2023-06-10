@@ -1,0 +1,9 @@
+[metadata]
+name = "zsh"
+version = "5.9"
+description = "Zsh is a command interpreter (shell) usable as an interactive login shell and as a shell script command processor."
+deps = []
+provides = ["/usr/bin/zsh", "/bin/zsh"]
+
+[downloads]
+"zsh-5.9.tar.xz" = "https://www.zsh.org/pub/zsh-5.9.tar.xz"

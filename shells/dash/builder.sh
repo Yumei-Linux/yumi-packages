@@ -5,9 +5,4 @@ into_tar_source dash-0.5.12
 
 _make && _make install
 
-if [[ "$(cat /etc/shells | grep '/bin/dash' | wc -l)" == 0 ]]; then
-cat >> /etc/shells << "EOF"
-/bin/dash
-EOF
-fi
-
+echo "[I] Remember to append /bin/dash to /etc/shells!"
