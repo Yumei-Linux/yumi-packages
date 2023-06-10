@@ -1,4 +1,4 @@
-into_tar_source libev-1.13.1
+into_tar_source libevdev-1.13.1
 
 mkdir -pv build ; cd build
 
