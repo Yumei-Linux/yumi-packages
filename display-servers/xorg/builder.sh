@@ -29,6 +29,10 @@ EOF
 
 declare -a packages=(
     util-macros
+    xorgproto
+    libXau
+    libXdmcp
+    xcb-proto
 )
 
 load() {
