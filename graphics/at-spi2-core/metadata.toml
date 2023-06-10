@@ -6,7 +6,7 @@ deps = [
   "system/dbus",
   "libs/glib",
   "graphics/gsettings-desktop-schemas",
-  "libs/gobject-introspection"
+  "system/gobject-introspection"
 ]
 provides = [
   "/usr/lib/libatk-1.0.so",
