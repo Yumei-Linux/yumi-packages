@@ -1,0 +1,19 @@
+[metadata]
+name = "at-spi2-core"
+version = "2.48.3"
+description = "The At-Spi2 Core package contains a comprehensive accessibility framework for the Assistive Technologies available on the GNOME platform. This includes a set of interfaces which are implemented by other toolkits and applications."
+deps = [
+  "system/dbus",
+  "libs/glib",
+  "graphics/gsettings-desktop-schemas",
+  "libs/gobject-introspection"
+]
+provides = [
+  "/usr/lib/libatk-1.0.so",
+  "/usr/lib/libatk-bridge-2.0.so",
+  "/usr/lib/libatspi.so",
+  "/usr/lib/gtk-2.0/modules/libatk-bridge.so"
+]
+
+[downloads]
+"at-spi2-core-2.48.3.tar.xz" = "https://download.gnome.org/sources/at-spi2-core/2.48/at-spi2-core-2.48.3.tar.xz"

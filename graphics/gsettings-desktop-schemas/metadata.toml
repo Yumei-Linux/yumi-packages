@@ -1,0 +1,9 @@
+[metadata]
+name = "gsettings-desktop-schemas"
+version = "44.0"
+description = "The GSettings Desktop Schemas package contains a collection of GSettings schemas for settings shared by various components of a GNOME Desktop."
+deps = ["system/gobject-introspection"]
+provides = []
+
+[downloads]
+"gsettings-desktop-schemas-44.0.tar.xz" = "https://download.gnome.org/sources/gsettings-desktop-schemas/44/gsettings-desktop-schemas-44.0.tar.xz"
