@@ -1,0 +1,12 @@
+[metadata]
+name = "yasm"
+version = "1.3.0"
+description = "Yasm is a complete rewrite of the NASM-2.16.01 assembler. It supports the x86 and AMD64 instruction sets, accepts NASM and GAS assembler syntaxes and outputs binary, ELF32 and ELF64 object formats."
+deps = []
+provides = [
+  "/usr/bin/yasm",
+  "/usr/lib/libyasm.a"
+]
+
+[downloads]
+"yasm-1.3.0.tar.gz" = "https://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz"
