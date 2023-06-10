@@ -3,7 +3,7 @@ name = "xorg-video-vmware"
 version = "13.4.0"
 description = "The Xorg VMware Driver package contains the X.Org Video Driver for VMware SVGA virtual video cards."
 deps = []
-provides = []
+provides = ["/usr/lib/xorg/modules/drivers/vmware_drv.so", "/usr/lib/xorg/modules/drivers/vmware_drv.la"]
 
 [downloads]
 "xf86-video-vmware-13.4.0.tar.xz" = "https://www.x.org/pub/individual/driver/xf86-video-vmware-13.4.0.tar.xz"
