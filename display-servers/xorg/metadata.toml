@@ -2,7 +2,7 @@
 name = "xorg"
 version = "latest"
 description = "This package contains the base packages for the Xorg implementation to work"
-deps = []
+deps = ["graphics/fontconfig", "net/wget"]
 provides = []
 
 [downloads]

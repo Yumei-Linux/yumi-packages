@@ -34,6 +34,7 @@ declare -a packages=(
     libXdmcp
     xcb-proto
     libxcb
+    xorg-libraries
 )
 
 load() {
