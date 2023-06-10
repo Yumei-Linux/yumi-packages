@@ -45,6 +45,7 @@ declare -a packages=(
     libdrm
     mesa
     xbitmaps
+    xorg-applications
 )
 
 load() {
