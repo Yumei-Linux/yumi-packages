@@ -17,7 +17,7 @@ fi
 if [[ ! -f /etc/sudoers.d/xorg && -d /etc/sudoers.d ]]; then
 echo "  * Adding configuration to keep xorg envvars in the sudo environment"
 cat > /etc/sudoers.d/xorg << EOF
-Defaults env_keeep += XORG_PREFIX
+Defaults env_keep += XORG_PREFIX
 Defaults env_keep += XORG_CONFIG
 EOF
 fi
