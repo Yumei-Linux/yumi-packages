@@ -1,0 +1,9 @@
+[metadata]
+name = "bash"
+version = "5.2.9"
+description = "bash stands for bourne again shell"
+deps = []
+provides = ["/usr/bin/bash", "/bin/bash"]
+
+[downloads]
+"bash-5.2.9.tar.gz" = "https://mirror.cedia.org.ec/gnu/bash/bash-5.2.9.tar.gz"
