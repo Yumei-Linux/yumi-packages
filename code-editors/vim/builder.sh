@@ -6,7 +6,7 @@ echo '#define SYS_GVIMRC_FILE "/etc/gvimrc"' >> src/feature.h
 echo "[Q] Do you want --enable-gui=gtk3? [y/N] "
 read wantsgtk
 
-if [[ "$wantsgtk" != 'y' || "$wantsgtk" != 'n' || "$wantsgtk" != "" ]]; then
+if [[ "$wantsgtk" != 'y' && "$wantsgtk" != 'n' && "$wantsgtk" != "" ]]; then
     echo "* Invalid answer, put y or n. Retry building."
     exit 1
 fi
