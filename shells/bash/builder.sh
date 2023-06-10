@@ -4,6 +4,6 @@ into_tar_source bash-5.2.9
     --build=$(support/config.guess) \
     --without-bash-malloc
 
-_make && _make _install
-
+_make && _make install
+[ -f /bin/sh ] && rm /bin/sh
 ln -sv bash /bin/sh
