@@ -1,0 +1,35 @@
+[metadata]
+name = "pulseaudio"
+version = "16.1"
+description = "PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for sound applications. It allows you to do advanced operations on your sound data as it passes between your application and your hardware. Things like transferring the audio to a different machine, changing the sample format or channel count and mixing several sounds into one are easily achieved using a sound server."
+deps = [
+  "libs/libsndfile",
+  "libs/alsa-lib",
+  "system/dbus",
+  "libs/glib",
+  "libs/speex",
+]
+provides = [
+  "/usr/bin/pacat",
+  "/usr/bin/pacmd",
+  "/usr/bin/pactl",
+  "/usr/bin/padsp",
+  "/usr/bin/pamon",
+  "/usr/bin/paplay",
+  "/usr/bin/parec",
+  "/usr/bin/parecord",
+  "/usr/bin/qpaeq",
+  "/usr/bin/pasuspender",
+  "/usr/bin/pax11publish",
+  "/usr/bin/pulseaudio",
+  "/usr/bin/start-pulseaudio-x11",
+  "/usr/lib/libpulse.so",
+  "/usr/lib/libpulse-mainloop-glib.so",
+  "/usr/lib/libpulse-simple.so",
+  "/usr/lib/libpulsecommon-16.1.so",
+  "/usr/lib/libpulsecore-16.1.so",
+  "/usr/lib/libpulsedsp.so"
+]
+
+[downloads]
+"pulseaudio-16.1.tar.xz" = "https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-16.1.tar.xz"
