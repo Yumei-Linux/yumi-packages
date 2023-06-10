@@ -1,0 +1,16 @@
+[metadata]
+name = "libpng"
+version = "1.6.39"
+description = "The libpng package contains libraries used by other programs for reading and writing PNG files."
+deps = []
+provides = [
+  "/usr/bin/libpng-config",
+  "/usr/bin/libpng16-config",
+  "/usr/bin/pngfix",
+  "/usr/bin/png-fix-itxt",
+  "/usr/lib/libpng.so"
+]
+
+[downloads]
+"libpng-1.6.39.tar.xz" = "https://downloads.sourceforge.net/libpng/libpng-1.6.39.tar.xz"
+"libpng-1.6.39-apng.patch.gz" = "https://downloads.sourceforge.net/sourceforge/libpng-apng/libpng-1.6.39-apng.patch.gz"
