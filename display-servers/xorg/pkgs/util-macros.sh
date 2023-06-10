@@ -1,0 +1,1 @@
+echo "$XORG_PREFIX"
