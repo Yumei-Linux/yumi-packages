@@ -1,0 +1,9 @@
+[metadata]
+name = "libepoxy"
+version = "1.5.10"
+description = "libepoxy is a library for handling OpenGL function pointer management."
+deps = []
+provides = ["/usr/lib/libepoxy.so"]
+
+[downloads]
+"libepoxy-1.5.10.tar.xz" = "https://download.gnome.org/sources/libepoxy/1.5/libepoxy-1.5.10.tar.xz"

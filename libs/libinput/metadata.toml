@@ -1,0 +1,9 @@
+[metadata]
+name = "libinput"
+version = "1.23.0"
+description = "libinput is a library that handles input devices for display servers and other applications that need to directly deal with input devices."
+deps = ["libs/libevdev", "libs/mtdev"]
+provides = ["/usr/lib/libinput.so"]
+
+[downloads]
+"libinput-1.23.0.tar.gz" = " https://gitlab.freedesktop.org/libinput/libinput/-/archive/1.23.0/libinput-1.23.0.tar.gz"

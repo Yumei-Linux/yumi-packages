@@ -9,7 +9,10 @@ deps = [
   "net/curl",
   "libs/mako",
   "dev/llvm",
-  "display-servers/wayland-protocols"
+  "display-servers/wayland-protocols",
+  "libs/pixman",
+  "libs/libepoxy",
+  "libs/libtirpc",
 ]
 
 [downloads]

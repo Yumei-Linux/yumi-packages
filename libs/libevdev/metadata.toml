@@ -1,0 +1,14 @@
+[metadata]
+name = "libevdev"
+version = "1.13.1"
+description = "The libevdev package contains common functions for Xorg input drivers."
+deps = []
+provides = [
+  "/usr/bin/libevdev-tweak-device",
+  "/usr/bin/mouse-dpi-tool",
+  "/usr/bin/touchpad-edge-selector",
+  "/usr/lib/libevdev.so"
+]
+
+[downloads]
+"libevdev-1.13.1.tar.xz" = " https://www.freedesktop.org/software/libevdev/libevdev-1.13.1.tar.xz"

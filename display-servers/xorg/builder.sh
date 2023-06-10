@@ -48,6 +48,10 @@ declare -a packages=(
     xorg-applications
     xcursor-themes
     xorg-fonts
+    xkeyboard-config
+    xwayland
+    libxcvt
+    xorg-server
 )
 
 load() {
