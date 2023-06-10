@@ -1,0 +1,9 @@
+[metadata]
+name = "xorg-libinput"
+version = "1.3.0"
+description = "The X.Org Libinput Driver is a thin wrapper around libinput and allows for libinput to be used for input devices in X. This driver can be used as as drop-in replacement for evdev and synaptics."
+deps = ["libs/libinput"]
+provides = ["/usr/lib/libinput_drv.so"]
+
+[downloads]
+"xf86-input-libinput-1.3.0.tar.xz" = "https://www.x.org/pub/individual/driver/xf86-input-libinput-1.3.0.tar.xz"
