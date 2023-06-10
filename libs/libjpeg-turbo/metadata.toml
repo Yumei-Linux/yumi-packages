@@ -15,4 +15,4 @@ provides = [
 ]
 
 [downloads]
-"ligjpeg-turbo-2.1.5.1.tar.gz" = "https://downloads.sourceforge.net/libjpeg-turbo/libjpeg-turbo-2.1.5.1.tar.gz"
+"libjpeg-turbo-2.1.5.1.tar.gz" = "https://downloads.sourceforge.net/libjpeg-turbo/libjpeg-turbo-2.1.5.1.tar.gz"
