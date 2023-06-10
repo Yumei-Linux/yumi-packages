@@ -1,0 +1,8 @@
+[metadata]
+name = "void-linux-kernel"
+version = "latest"
+description = "This package installs the void linux kernel into the yumei file system"
+deps = ["dev-tools/git", "utils/rsync"]
+provides = []
+
+[downloads]
