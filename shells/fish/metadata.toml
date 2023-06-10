@@ -1,0 +1,9 @@
+[metadata]
+name = "fish"
+version = "git"
+description = "This package installs the fish shell at /usr/"
+deps = ["dev/rust", "libs/pcre2", "dev-tools/cmake"]
+provides = ["/usr/bin/fish", "/bin/fish"]
+
+[downloads]
+"fish-3.6.1.tar.xz" = "https://github.com/fish-shell/fish-shell/releases/download/3.6.1/fish-3.6.1.tar.xz"
