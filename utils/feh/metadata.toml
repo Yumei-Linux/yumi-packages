@@ -1,0 +1,13 @@
+[metadata]
+name = "feh"
+version = "3.10"
+description = "feh is a fast, lightweight image viewer which uses Imlib2. It is commandline-driven and supports multiple images through slideshows, thumbnail browsing or multiple windows, and montages or index prints (using TrueType fonts to display file info)."
+deps = [
+  "libs/libpng",
+  "libs/imlib2",
+  "net/curl"
+]
+provides = ["/usr/bin/feh"]
+
+[downloads]
+"feh-3.10.tar.bz2" = "https://feh.finalrewind.org/feh-3.10.tar.bz2"
