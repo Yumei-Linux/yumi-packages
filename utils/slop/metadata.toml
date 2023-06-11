@@ -1,0 +1,8 @@
+[metadata]
+name = "slop"
+version = "git"
+description = "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+deps = ["dev-tools/cmake", "dev-tools/git", "libs/glm", "libs/glew", "libs/glu"]
+provides = ["/usr/bin/slop"]
+
+[downloads]

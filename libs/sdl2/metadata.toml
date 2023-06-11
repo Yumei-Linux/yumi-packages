@@ -1,0 +1,12 @@
+[metadata]
+name = "sdl2"
+version = "2.26.5"
+description = "The Simple DirectMedia Layer Version 2 (SDL2 for short) is a cross-platform library designed to make it easy to write multimedia software, such as games and emulators."
+deps = ["libs/libxkbcommon", "display-servers/wayland-protocols"]
+provides = [
+  "/usr/bin/sdl2-config",
+  "/usr/lib/libSDL2.so"
+]
+
+[downloads]
+"SDL2-2.26.5.tar.gz" = "https://www.libsdl.org/release/SDL2-2.26.5.tar.gz"

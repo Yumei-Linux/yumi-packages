@@ -1,0 +1,28 @@
+[metadata]
+name = "libwebp"
+version = "1.3.0"
+description = "The libwebp package contains a library and support programs to encode and decode images in WebP format."
+deps = [
+  "libs/libjpeg-turbo",
+  "libs/libpng",
+  "libs/libtiff",
+  "libs/sdl12-compat"
+]
+provides = [
+  "/usr/bin/cwebp",
+  "/usr/bin/dwebp",
+  "/usr/bin/gif2webp",
+  "/usr/bin/img2webp",
+  "/usr/bin/vwebp",
+  "/usr/bin/webpinfo",
+  "/usr/bin/webpmux",
+  "/usr/lib/libsharpyuv.so",
+  "/usr/lib/libwebpdecoder.so",
+  "/usr/lib/libwebpdemux.so",
+  "/usr/lib/libwebpmux.so",
+  "/usr/lib/libwebp.so"
+]
+
+[downloads]
+"libwebp-1.3.0.tar.gz" = "http://downloads.webmproject.org/releases/webp/libwebp-1.3.0.tar.gz"
+"libwebp-1.3.0-upstream_fix-1.patch" = "https://www.linuxfromscratch.org/patches/blfs/svn/libwebp-1.3.0-upstream_fix-1.patch"

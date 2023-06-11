@@ -1,0 +1,13 @@
+[metadata]
+name = "glew"
+version = "2.2.0"
+description = "GLEW is the OpenGL Wrangler Library"
+deps = []
+provides = [
+  "/usr/bin/glewinfo",
+  "/usr/bin/visualinfo",
+  "/usr/lib/libGLEW.so"
+]
+
+[downloads]
+"glew-2.2.0.tgz" = "https://downloads.sourceforge.net/glew/glew-2.2.0.tgz"

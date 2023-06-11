@@ -1,0 +1,15 @@
+[metadata]
+name = "maim"
+version = "git"
+description = "maim (make image) takes screenshots of your desktop. It has options to take only a region, and relies on slop to query for regions. maim is supposed to be an improved scrot."
+provides = ["/usr/bin/maim"]
+deps = [
+  "dev-tools/cmake", 
+  "dev-tools/git", 
+  "libs/glm", 
+  "libs/glew", 
+  "libs/glu", 
+  "utils/slop"
+]
+
+[downloads]

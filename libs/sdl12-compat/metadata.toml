@@ -1,0 +1,9 @@
+[metadata]
+name = "sdl12-compat"
+version = "1.2.64"
+description = "The Simple DirectMedia Layer (SDL for short) is a cross-platform library designed to make it easy to write multimedia software, such as games and emulators. This code is a compatibility layer; it provides a binary and source compatible API for programs written against SDL 1.2, but it uses SDL 2.0 behind the scenes."
+deps = ["dev-tools/cmake", "libs/glu", "libs/sdl2"]
+provides = ["/usr/bin/sdl-config", "/usr/lib/libSDL.so"]
+
+[downloads]
+"sdl12-compat-release-1.2.64.tar.gz" = "https://github.com/libsdl-org/sdl12-compat/archive/refs/tags/release-1.2.64/sdl12-compat-release-1.2.64.tar.gz"

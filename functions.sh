@@ -12,6 +12,11 @@ into_tar_source () {
     cd $@
 }
 
+into_git_source () {
+    git clone ${1} || exit 1
+    cd ${2}
+}
+
 into_zip_source () {
     mkdir -pv ${@}.extracted
     cd ${@}.extracted
