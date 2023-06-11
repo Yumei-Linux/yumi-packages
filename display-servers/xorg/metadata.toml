@@ -13,6 +13,7 @@ deps = [
   "libs/pixman",
   "libs/libepoxy",
   "libs/libtirpc",
+  "libs/libepoxy"
 ]
 
 [downloads]
