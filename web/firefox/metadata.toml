@@ -2,7 +2,7 @@
 name = "firefox"
 version = "114-0.1"
 description = "This package installs the prebuilt binaries for the firefox browser"
-deps = ["net/wget", "system/pulseaudio", "graphics/gtk3"]
+deps = ["net/wget", "system/pulseaudio", "graphics/gtk3", "libs/dbus-glib"]
 provides = [
   "/usr/bin/firefox",
   "/usr/share/applications/firefox.desktop"
