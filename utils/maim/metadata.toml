@@ -8,8 +8,9 @@ deps = [
   "dev-tools/git", 
   "libs/glm", 
   "libs/glew", 
-  "libs/glu", 
-  "utils/slop"
+  "libs/glu",
+  "utils/slop",
+  "libs/libwebp"
 ]
 
 [downloads]
